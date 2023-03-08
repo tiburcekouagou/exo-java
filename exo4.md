@@ -8,7 +8,7 @@ Il s'agit de modéliser un segment de droite dont les valeurs des abscisses des 
 
   * deux attributs privés de type int, extr1 et extr2, représentant les abscisses (entières) des extrémités d'un segment sur un axe ; la classe fera en sorte que extr1 soit toujours au plus égal à extr2 ;
   * un constructeur de ce segment recevant en arguments les deux valeurs entières des abscisses des extrémités du segment que l'on veut construire ;
-  * une méthode privée nommée ordonne échangeant éventuellement les valeurs des extrémités du segment de telle sorte que la valeur de extr1 soit au plus égale à la valeur de extr2 ; cette méthode devra utiliser une instruction conditionnelle ; voir ci-dessous pour ceux qui ne connaitraît pas ce type d'instruction.
+  * une méthode privée nommée `ordonne` échangeant éventuellement les valeurs des extrémités du segment de telle sorte que la valeur de extr1 soit au plus égale à la valeur de extr2 ; cette méthode devra utiliser une instruction conditionnelle ; voir ci-dessous pour ceux qui ne connaitraît pas ce type d'instruction.
   * une méthode publique retournant la longueur du segment ;
   * une méthode dont le prototype est :
 **public boolean appartient(int x);** indiquant si le point de coordonnée `x` appartient ou non au segment ;
