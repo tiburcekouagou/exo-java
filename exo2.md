@@ -8,7 +8,7 @@ Les quelques renseignements qui suivent peuvent être utiles :
 System.out.println(n);
 ```
 provoque l'écriture de la valeur de n
-** l'instruction :
+    * l'instruction :
 ```java
 System.out.println("voilà " + n);
 ```
