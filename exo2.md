@@ -3,12 +3,12 @@ Il s'agit d'écrire un programme qui calcule la factorielle d'un entier et indiq
 
 Les quelques renseignements qui suivent peuvent être utiles :
 
-si n est une variable de type int, l'instruction :
+* si n est une variable de type int, l'instruction :
 ```java
 System.out.println(n);
 ```
 provoque l'écriture de la valeur de n
-l'instruction :
+** l'instruction :
 ```java
 System.out.println("voilà " + n);
 ```
