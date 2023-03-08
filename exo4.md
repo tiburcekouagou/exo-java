@@ -59,3 +59,42 @@ et l'instruction :
 donnera sur la sortie standard : ```le segment [1, 3]```
 
 3. Le "et logique" sécrit && en Java, le "ou logique" s'écrit ||.
+
+
+## Indications sur l'instruction conditionelle
+
+Une instruction conditionelle s'écrit :
+```java
+if (condition) {
+    instruction1;
+    instruction2;
+    ...
+}
+else {
+    autreInstruction1;
+    autreInstruction2;
+}
+```
+
+Les parenthèses autour de la condition sont obligatoires.   
+Il peut ne pas y avoir de else, on peut écrire :
+```java
+if (condition) {
+    instruction1;
+    instruction2;
+    ...
+}
+```
+
+puis la suite du code sans commencer par le mot else.   
+Si une seule instruction est à faire dans le bloc du if ou dans le bloc du else, les accolades sont facultatives. On peut écrire :
+```java
+if (condition) instruction1; ...
+```
+
+On peut composer en écrivant :
+```java
+if (condition) //bloc d'instructions
+else if (autreCondition) //bloc d'instructions
+else //bloc d'instructions
+```
